@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -9,12 +7,15 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    --animation: App-logo-spin infinite 20s linear;
   }
 }
+.logo {
+  z-index: 1;
+}
 
-.App-header {
-  background-color: #282c34;
+.intro{
+  background-color: #060e1d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,40 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.about {
+  background-color: #0c0e13;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  color: white;
+}
+
+
+.intro-name-highlighter {
+  color: #4dd335;
+    font-weight: 600;
+}
+
+.flex-item {
+  margin: 2vmin;
+}
+
+.profile-image {
+  width: 20vmin;
+  border-radius: 50%;
 }
 
 .App-link {
@@ -35,4 +70,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Typewriter*/
+
+
+.typewriter div{
+  --color: #fff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  --letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
