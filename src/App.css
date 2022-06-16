@@ -14,13 +14,24 @@
   z-index: 1;
 }
 
-.intro{
-  background-color: #060e1d;
-  min-height: 100vh;
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.flex-column {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.intro{
+  background-color: #060e1d;
+  min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,11 +46,7 @@
 
 .about {
   background-color: #0c0e13;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  height: 100vh;
   font-size: calc(4px + 2vmin);
   color: white;
 }
@@ -52,6 +59,7 @@
 
 .flex-item {
   margin: 2vmin;
+  text-align: center;
 }
 
 .profile-image {
@@ -61,6 +69,44 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.banner {
+  width: 100vw;
+  height: 6vh;
+  text-align: center;
+  background-color: #5a00003b;
+  padding: 2vmin 0 2vmin 0;
+  font-size: 4vmin;
+}
+.company {
+  font-size: 5vmin;
+  font-weight: 200;
+}
+.location {
+  margin-left: 10px;
+  font-style: italic;
+}
+.experience {
+  background-color: #eeeeee;
+  min-height: 100vh;
+  font-size: calc(4px + 2vmin);
+  
+}
+.maringleftRight20 {
+  margin: 0px 20vmin 0px 20vmin;
+}
+
+.icon-links {
+  margin:2vmin;
+}
+.icon-links span {
+  padding: 1vmin;
+  cursor: pointer;
+}
+
+.icon-links span a{
+  color:#fff;
 }
 
 @keyframes App-logo-spin {
