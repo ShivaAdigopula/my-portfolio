@@ -8,7 +8,7 @@ export function AboutComponent({ picture, about }) {
             justifyContent="center"
             alignItems="center"
             alignContent="center"
-            spacing={4}
+            
         >
 
 

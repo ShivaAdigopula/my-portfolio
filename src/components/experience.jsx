@@ -10,8 +10,8 @@ const styles = {
        marginTop: '4vmin',
        
     },
-    anchor: {
-        color: '#fff'
+    role: {
+        fontSize: '2vmin'
     },
     experienceHead: {
         height: '5vmin',
@@ -29,15 +29,13 @@ function ExperienceComponent({ experience = {}, classes }) {
             alignContent="center"
             className={classes.experience}>
 
-
-
             <Grid item container flexDirection="column"
                 justifyContent="center"
                 alignItems="center"
                 alignContent="center"
                 >
                 <Grid item ><span className="company">{company}</span><span className="location">{location}</span></Grid>
-                <Grid item> <span>{role}</span><span>,</span>  <span>{from}</span> <span>-</span> <span>{to}</span></Grid>
+                <Grid item > <span className={classes.role}>{role}</span><span>,</span>  <span className={classes.role}>{from}</span> <span>-</span> <span className={classes.role}>{to}</span></Grid>
             </Grid>
             <Grid item className={classes.responsibility}>
                 {responsibilities}
