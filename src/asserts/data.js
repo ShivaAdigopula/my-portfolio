@@ -18,7 +18,7 @@ export const data = {
           from: 'Sept 2021',
           to: 'Jun 2022',
           responsibilities: `I'm responsible for implementing end to end solutions for CAT360 application.
-          CAT360 application is a one stop destination to perform catering business. It involves in maintaining receipe library, menu planning, tendering, procurement and galley planning for Emirates Airlines.`,
+          `,
       },
       {
         company: 'Blue Yonder',
@@ -28,7 +28,7 @@ export const data = {
         to: 'Sept 2021',
         responsibilities: `Responsible for migrating  'Merchandise Management for Furnishings (MMHF)' from Oracle Forms to new generation SaaS Ready solution using Microservices Architecture and React JS as a front-end application.
         Involved in every phase of the application developement life cycle.
-        MMHF is recognized as being one of the most predominant retail merchandising systems addressing purchasing, basic allocations, receiving, transfers, physical inventory, price and cost management, replenishment and sales processing.`,
+        `,
     },
     {
         company: 'CDK Global',
@@ -36,8 +36,7 @@ export const data = {
         role: 'Senior Member Technical',
         from: 'Jul 2017',
         to: 'May 2019',
-        responsibilities: `Responsible for developing and maintaining Social 2.0 application which offers dealers a unified social media, reputation management and blogging platform. Delaers can use the dashboard to monitor and manage reviews and social media communities with provided centralized account management for all social network sites.`,
-    },
+        responsibilities: `Responsible for developing and maintaining Social 2.0 application which offers dealers a unified social media, reputation management and blogging platform. `},
     {
         company: 'Tech Mahindra',
         location: 'Pune, India',

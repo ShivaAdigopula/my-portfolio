@@ -1,19 +1,30 @@
+import { Grid } from "@mui/material";
 import { Fragment } from "react";
 
 export function AboutComponent({ picture, about }) {
     return <Fragment>
-        <div id="about" className="about flex-column">
-            
-            
-                <div className="flex-item">
-                    <img src={picture} className="profile-image" />
-                </div>
-                <div className="flex-item">
-                    {
-                        about && about.map(sentence => <div>{sentence}</div>)
-                    }
-                </div>
-            </div>
-        
+        <Grid container id="about" className="about"
+            flexDirection="row"
+            justifyContent="center"
+            alignItems="center"
+            alignContent="center"
+            spacing={4}
+        >
+
+
+            <Grid item >
+                <img src={picture} className="profile-image" />
+            </Grid>
+            <Grid container item
+                flexDirection="column"
+                alignItems="center"
+                alignContent="center"
+                justifyContent="center">
+                {
+                    about && about.map(sentence => <Grid item textAlign="center">{sentence}</Grid>)
+                }
+            </Grid>
+        </Grid>
+
     </Fragment>
 }

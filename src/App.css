@@ -72,16 +72,18 @@
 }
 
 .banner {
-  width: 100vw;
   height: 6vh;
   text-align: center;
-  background-color: #5a00003b;
-  padding: 2vmin 0 2vmin 0;
+  /* background-color: #00afeb3b; */
+  /* padding: 2vmin 0 2vmin 0; */
   font-size: 4vmin;
+  text-decoration: unset;
+  border-bottom: 2px solid #ff930d;
+
 }
 .company {
-  font-size: 5vmin;
-  font-weight: 200;
+  font-size: 3.2vmin;
+  font-weight: 400;
 }
 .location {
   margin-left: 10px;
