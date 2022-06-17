@@ -54,7 +54,8 @@
 
 .intro-name-highlighter {
   color: #4dd335;
-    font-weight: 600;
+  font-weight: 600;
+  margin-left:10px;
 }
 
 .flex-item {

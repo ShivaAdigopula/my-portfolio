@@ -8,7 +8,7 @@ export const data = {
     },
     about: ["I'm a tech agnostic polyglot programmer, passionate to learn new technologies.",
     "I've 8+ years of experience in building enterprise level web applications.",
-    "Current focussing areas are Node, Blockchain and Web 3 Technologies."
+    "Current focussing areas are Node, System Design and Architecture."
   ],
   experience: [
       {

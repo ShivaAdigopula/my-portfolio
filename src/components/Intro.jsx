@@ -31,8 +31,11 @@ const IntroComponent = ({ name, designation, socialNetworks, classes }) => {
                 flexDirection="column"
                 justifyContent="center"
                 alignItems="center">
-                <Grid item>
-                    <span>Hello, I'm</span> <span className="intro-name-highlighter">{name}</span>.
+                <Grid container item flexDirection="row"
+                justifyContent="center"
+                alignItems="center"
+                >
+                    <div>Hello, I'm</div><div className="intro-name-highlighter">{name}.</div>
                 </Grid>
                 <Grid item>
                     I'm a {designation}.
