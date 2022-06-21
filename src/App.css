@@ -115,6 +115,9 @@
 .icon-links span a{
   color:#fff;
 }
+.marginSkills{
+  margin: 2vmax !important;
+}
 
 @keyframes App-logo-spin {
   from {

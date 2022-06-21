@@ -54,5 +54,14 @@ export const data = {
             to: 'Jul 2017',
             responsibilities: `Responsible for developing and maintaing AT&T's user Registration, Profile Management and Forgot Login solutions.`,
         },
+    ],
+    skills: [
+        {name: 'Java', efficiency: 80},
+        {name: 'Java Script', efficiency: 80},
+        {name: 'Spring Framework & Spring Boot', efficiency: 70},
+        {name: 'React JS', efficiency: 70},
+        {name: 'HTML & CSS', efficiency: 70},
+        {name: 'Oracle (SQL, PLSQL)', efficiency: 60},
+        {name: 'Mongo DB', efficiency: 50}
     ]
 }

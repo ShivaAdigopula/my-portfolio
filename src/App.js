@@ -6,9 +6,10 @@ import { AboutComponent } from './components/about';
 import { data } from './asserts/data';
 import { ExperienceList } from './components/experienceList';
 import { Fade, Zoom } from 'react-reveal';
+import { SkillsComponent } from './components/skills';
 
 function App() {
-  const { name, designation, about, experience, socialNetworks } = data;
+  const { name, designation, about, experience, socialNetworks, skills } = data;
   return (<Fragment>
     <Fade>
       <IntroComponent name={name} designation={designation} socialNetworks={socialNetworks} />
@@ -16,6 +17,7 @@ function App() {
     <Zoom>
       <AboutComponent picture={profilepicture} about={about} />
       <ExperienceList experience={experience} />
+      <SkillsComponent skills={skills}/>
     </Zoom>
 
   </Fragment>

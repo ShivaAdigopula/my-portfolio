@@ -11,19 +11,20 @@ export function AboutComponent({ picture, about }) {
             
         >
 
-            <Grid item>
+            <Grid item >
                 <div variant="h4" className="banner marginBottom">About Me</div>
             </Grid>
 
 
-            <Grid item >
+            <Grid item>
                 <img src={picture} className="profile-image" alt={`profile`}/>
             </Grid>
             <Grid container item
                 flexDirection="column"
                 alignItems="center"
                 alignContent="center"
-                justifyContent="center">
+                justifyContent="center"
+                >
                 {
                     about && about.map(sentence => <Grid item textAlign="center">{sentence}</Grid>)
                 }

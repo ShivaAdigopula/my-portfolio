@@ -27,12 +27,14 @@ function ExperienceComponent({ experience = {}, classes }) {
             justifyContent="center"
             alignItems="center"
             alignContent="center"
-            className={classes.experience}>
+            className={classes.experience}
+            xs={12} sm={8} lg={8}>
 
             <Grid item container flexDirection="column"
                 justifyContent="center"
                 alignItems="center"
                 alignContent="center"
+                
                 >
                 <Grid item ><span className="company">{company}</span><span className="location">{location}</span></Grid>
                 <Grid item > <span className={classes.role}>{role}</span><span>,</span>  <span className={classes.role}>{from}</span> <span>-</span> <span className={classes.role}>{to}</span></Grid>
