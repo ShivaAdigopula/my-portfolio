@@ -6,10 +6,10 @@ export const data = {
         gitHub: 'https://github.com/ShivaAdigopula',
         mail: 'vskrao.adigopula@gmail.com',
     },
-    about: ["I am a full stack developer and tech agnostic polyglot programmer.",
-    "I'm eager to learn about and put into practice solutions for large-scale data-intensive applications.",
-        "I've spent more than 8 years developing enterprise web apps using Java and JavaScript technologies.",
-        "Node, Distributed Data Systems, Web 3, and Blockchain are the current focus areas."
+    about: [`I am a full stack developer and tech agnostic polyglot programmer.
+        I'm eager to learn about and put into practice solutions for large-scale data-intensive applications.
+        I've spent more than 8 years developing enterprise web apps using Java and JavaScript technologies
+        "Node, Distributed Data Systems, Web 3, and Blockchain are the current focus areas.`
     ],
     experience: [
         {
@@ -56,12 +56,14 @@ export const data = {
         },
     ],
     skills: [
-        {name: 'Java', efficiency: 80},
-        {name: 'Java Script', efficiency: 80},
-        {name: 'Spring Framework & Spring Boot', efficiency: 70},
-        {name: 'React JS', efficiency: 70},
-        {name: 'HTML & CSS', efficiency: 70},
-        {name: 'Oracle (SQL, PLSQL)', efficiency: 60},
-        {name: 'Mongo DB', efficiency: 50}
-    ]
+        { name: 'Java', efficiency: 90 },
+        { name: 'Java Script', efficiency: 90 },
+        { name: 'Spring Framework & Spring Boot', efficiency: 80 },
+        { name: 'React JS', efficiency: 80 },
+        { name: 'HTML & CSS', efficiency: 70 },
+        { name: 'Node', efficiency: 60 },
+        { name: 'Oracle (SQL, PLSQL)', efficiency: 60 },
+        { name: 'Mongo DB', efficiency: 50 }
+    ],
+    resume: `https://drive.google.com/file/d/1-iu0GWvTkH8ppd45SZttqfR_bIPAz1it/view?usp=sharing`
 }

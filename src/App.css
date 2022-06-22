@@ -51,6 +51,14 @@
   color: white;
 }
 
+.skills {
+  background-color: #13111c;
+  height: 100vh;
+  font-size: calc(4px + 2vmin);
+  color: white;
+}
+
+
 
 .intro-name-highlighter {
   color: #4dd335;
@@ -77,7 +85,7 @@
 }
 
 .banner {
-  height: 6vh;
+  --height: 6vh;
   text-align: center;
   /* background-color: #00afeb3b; */
   /* padding: 2vmin 0 2vmin 0; */

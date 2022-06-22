@@ -9,13 +9,13 @@ import { Fade, Zoom } from 'react-reveal';
 import { SkillsComponent } from './components/skills';
 
 function App() {
-  const { name, designation, about, experience, socialNetworks, skills } = data;
+  const { name, designation, about, experience, socialNetworks, skills, resume } = data;
   return (<Fragment>
-    <Fade>
+    <Fade >
       <IntroComponent name={name} designation={designation} socialNetworks={socialNetworks} />
     </Fade>
     <Zoom>
-      <AboutComponent picture={profilepicture} about={about} />
+      <AboutComponent picture={profilepicture} about={about} resume={resume}/>
       <ExperienceList experience={experience} />
       <SkillsComponent skills={skills}/>
     </Zoom>

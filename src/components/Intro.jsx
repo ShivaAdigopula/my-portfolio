@@ -1,4 +1,4 @@
-import { Button, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import { withStyles } from "@mui/styles";
 import { Fragment } from "react";
 import { AiFillGithub as GitHub } from "react-icons/ai";
@@ -46,10 +46,7 @@ const IntroComponent = ({ name, designation, socialNetworks, classes }) => {
                     <span className={classes.span}><a className={classes.anchor} href={`mailto: ${socialNetworks.mail}`}><Mail /></a></span>
 
                 </Grid>
-               { //<Grid item>
-                   // <Button variant="outlined">View My Work</Button>
-                //</Grid> 
-             }
+               
             </Grid>
         </Grid>
     </Fragment>

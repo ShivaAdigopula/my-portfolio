@@ -3,8 +3,8 @@ import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgr
 import { styled } from '@mui/material/styles';
 import { Fragment } from 'react';
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
-    height: 10,
-    borderRadius: 5,
+    height: 15,
+    borderRadius: 2,
     [`&.${linearProgressClasses.colorPrimary}`]: {
         backgroundColor: theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
     },
@@ -18,27 +18,31 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 export function SkillsComponent({ skills }) {
     return <Fragment>
-        <Grid container 
-         flexDirection="column" 
-         justifyContent="center"
-         alignItems="center"
-         alignContent="center"
-         
-         >
-        <Grid item className="banner marginBottom">Skills</Grid>
-        <Grid item container rowSpacing={2} xs={11} sm={8} lg={8} className="marginSkills"> 
-        {
-                skills && skills.map(skill => <Fragment>
-                    <Grid item xs={6}>
-                        {skill.name}
-                    </Grid>
-                    <Grid item xs={6}>
-                        <BorderLinearProgress variant="determinate" value={skill.efficiency} />
-                    </Grid>
-                </Fragment>)
-            }
-        </Grid>
-            
+        <Grid container
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+            alignContent="center"
+            className="skills"
+
+        >
+            <Grid item className="banner marginBottom">Skills</Grid>
+            <Grid item container rowSpacing={2} xs={11} sm={6} lg={6}
+                flexDirection="column"
+                justifyContent="center"
+            >
+                {
+                    skills && skills.map(skill => <Fragment>
+                        <Grid item >
+                            {skill.name}
+                        </Grid>
+                        <Grid item >
+                            <BorderLinearProgress variant="determinate" value={skill.efficiency} />
+                        </Grid>
+                    </Fragment>)
+                }
+            </Grid>
+
         </Grid>
     </Fragment>
 }
