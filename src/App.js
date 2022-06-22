@@ -1,9 +1,9 @@
 import './App.css';
 import { Fragment } from 'react';
-import profilepicture from './asserts/dp.jpg';
+import profilepicture from './assets/dp.jpg';
 import IntroComponent from './components/Intro';
 import { AboutComponent } from './components/about';
-import { data } from './asserts/data';
+import { data } from './assets/data';
 import { ExperienceList } from './components/experienceList';
 import { Fade, Zoom } from 'react-reveal';
 import { SkillsComponent } from './components/skills';
