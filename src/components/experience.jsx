@@ -39,7 +39,7 @@ function ExperienceComponent({ experience = {}, classes }) {
 
                 >
                     <Grid item ><span className="company">{company}</span><span className="location">{location}</span></Grid>
-                    <Grid item > <span className={classes.role}>{role}</span><span>,</span>  <span className={classes.role}>{from}</span> <span>-</span> <span className={classes.role}>{to}</span></Grid>
+                    <Grid item > <span className="role">{role}</span><span>,</span>  <span className="role">{from}</span> <span>-</span> <span className="role">{to}</span></Grid>
                 </Grid>
             </LightSpeed>
             { //<Grid item className={classes.responsibility}>
