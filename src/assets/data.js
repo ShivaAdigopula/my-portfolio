@@ -8,8 +8,8 @@ export const data = {
     },
     about: [`I am a full stack developer and tech agnostic polyglot programmer.
         I'm eager to learn about and put into practice solutions for large-scale data-intensive applications.
-        I've spent more than 8 years developing enterprise web apps using Java and JavaScript technologies
-        Node, Distributed Data Systems, Web 3, and Blockchain are the current focus areas.`
+        I've spent more than 8 years developing enterprise web apps using Java and JavaScript technologies.
+        Node, Next, Nest , Strapi are the current focus areas.`
     ],
     experience: [
         {
