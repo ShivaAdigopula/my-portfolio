@@ -36,7 +36,7 @@ export function SkillsComponent({ skills }) {
                         <Grid item >
                             {skill.name}
                         </Grid>
-                        <Grid item >
+                        <Grid item style={{paddingTop:5}}>
                             <BorderLinearProgress variant="determinate" value={skill.efficiency} />
                         </Grid>
                     </Fragment>)

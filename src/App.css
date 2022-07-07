@@ -178,7 +178,7 @@ html, body {
     
     transform: rotate(180deg);
    
-    margin: 20px !important;
+    margin: calc(10px + 2vmin) !important;
     padding: 15px;
     --text-transform: uppercase;
     font-weight: bold;
