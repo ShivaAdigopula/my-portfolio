@@ -9,7 +9,7 @@ export function AboutComponent({ picture, about, resume }) {
             justifyContent="center"
             alignItems="center"
             alignContent="center"
-            spacing={4}
+            rowSpacing={4}
         >
 
             <Grid item >
@@ -20,25 +20,24 @@ export function AboutComponent({ picture, about, resume }) {
             <Grid item >
                 <img src={picture} className="profile-image" alt={`profile`} />
             </Grid>
-            <Grid container item
-                flexDirection="column"
-                alignItems="center"
-                alignContent="center"
-                justifyContent="center"
+            
 
-            >
-
-                <Grid item xs={8} sm={6} lg={6}>
+            <Grid item container  alignContent="center" alignItems="center"  justifyContent="center">
+                
+                <Grid item xs={8} sm={8} md={8} lg={8} xl={ 8}>
                     <div>{about}</div>
                 </Grid>
+               
+                    
+                </Grid>
 
-                <Grid item style={{marginTop:25}}>
+                <Grid item  >
                     <a href={resume} target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}><Button variant="contained" startIcon={<AiOutlineDownload />}>
                         Resume
                     </Button></a>
                 </Grid>
 
-            </Grid>
+            
         </Grid>
 
     </Fragment>

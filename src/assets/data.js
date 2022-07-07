@@ -9,7 +9,7 @@ export const data = {
     about: [`I am a full stack developer and tech agnostic polyglot programmer.
         I'm eager to learn about and put into practice solutions for large-scale data-intensive applications.
         I've spent more than 8 years developing enterprise web apps using Java and JavaScript technologies.
-        Node, Next, Nest ,Strapi are the current focus areas.`
+        Node, Next, Nest are the current focus areas.`
     ],
     experience: [
         {
@@ -59,11 +59,12 @@ export const data = {
         { name: 'Java', efficiency: 90 },
         { name: 'Java Script', efficiency: 90 },
         { name: 'Spring Framework & Spring Boot', efficiency: 80 },
-        { name: 'React JS', efficiency: 80 },
+        { name: 'React JS, Next', efficiency: 80 },
         { name: 'HTML & CSS', efficiency: 70 },
-        { name: 'Node', efficiency: 60 },
+        { name: 'Node, Nest', efficiency: 60 },
         { name: 'Oracle (SQL, PLSQL)', efficiency: 60 },
-        { name: 'Mongo DB', efficiency: 50 }
+        { name: 'Mongo DB', efficiency: 50 },
+        { name: 'Strapi', efficiency: 60 }
     ],
     resume: `https://drive.google.com/file/d/1-iu0GWvTkH8ppd45SZttqfR_bIPAz1it/view?usp=sharing`
 }

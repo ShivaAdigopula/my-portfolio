@@ -1,4 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html, body {
+  margin: 0;
+  height: 100%;
+}
 
+* {
+  font-family: "Abel";
+  box-sizing: border-box;
+}
 
 .App-logo {
   height: 40vmin;
@@ -107,6 +116,11 @@
   font-style: italic;
   font-weight: 300;
 }
+.duration {
+  font-size: 2vmin;
+  
+  font-weight: 300;
+}
 .experience {
   background-color: #eeeeee;
   min-height: 100vh;
@@ -131,6 +145,47 @@
 .marginSkills{
   margin: 2vmax !important;
 }
+
+.menu:hover {
+  color:#61dafb;
+  border-bottom: 3px solid green;
+}
+
+.menu {
+  margin-top: 10px;
+  /* background-color: brown; */
+  text-align: left;
+  padding: 10px;
+  font-weight: 450;
+  color:darkslateblue;
+  cursor: pointer;
+  min-width: 70px;
+}
+.nav-bar {
+    color: #b205ff;
+    position: fixed;
+    z-index: 100;
+    height: 100vh;
+    max-width:50px;
+    --background-color: black;
+}
+
+.nav-bar-item {
+  cursor: pointer;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    
+    
+    transform: rotate(180deg);
+   
+    margin: 20px !important;
+    padding: 15px;
+    --text-transform: uppercase;
+    font-weight: bold;
+    font-size:20px;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

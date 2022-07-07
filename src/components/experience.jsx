@@ -29,7 +29,7 @@ function ExperienceComponent({ experience = {}, classes }) {
             alignItems="center"
             alignContent="center"
             className={classes.experience}
-            xs={12} sm={8} lg={8}>
+            xs={12} sm={8} md={8} lg={8} xl={ 8}>
 
             <LightSpeed left>
                 <Grid item container flexDirection="column"
@@ -39,13 +39,10 @@ function ExperienceComponent({ experience = {}, classes }) {
 
                 >
                     <Grid item ><span className="company">{company}</span><span className="location">{location}</span></Grid>
-                    <Grid item > <span className="role">{role}</span><span>,</span>  <span className="role">{from}</span> <span>-</span> <span className="role">{to}</span></Grid>
+                    <Grid item > <span className="role">{role}</span><span>,</span>  <span className="duration">{from}</span> <span>-</span> <span className="duration">{to}</span></Grid>
                 </Grid>
             </LightSpeed>
-            { //<Grid item className={classes.responsibility}>
-                // {responsibilities}
-                //</Grid>
-            }
+          
         </Grid>
 
     </Fragment>

@@ -24,10 +24,10 @@ export function SkillsComponent({ skills }) {
             alignItems="center"
             alignContent="center"
             className="skills"
-
+            id="skills"
         >
             <Grid item className="banner marginBottom">Skills</Grid>
-            <Grid item container rowSpacing={2} xs={11} sm={6} lg={6}
+            <Grid item container rowSpacing={2} xs={10} sm={6} lg={6}
                 flexDirection="column"
                 justifyContent="center"
             >

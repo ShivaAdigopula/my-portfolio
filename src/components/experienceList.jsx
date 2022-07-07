@@ -11,8 +11,12 @@ export function ExperienceList({experience}){
         alignContent="center">
             <Grid item className="banner">Experience</Grid>
         
-            {experience && experience.map(exp => <ExperienceComponent experience={exp}/>)}
+            
+            {experience && experience.map(exp => <ExperienceComponent experience={exp} />)}
+            
+           
         </Grid>
+
         
     </Fragment>
 }
