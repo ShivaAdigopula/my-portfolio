@@ -29,7 +29,7 @@ function ExperienceComponent({ experience = {}, classes }) {
             alignItems="center"
             alignContent="center"
             className={classes.experience}
-            xs={12} sm={8} md={8} lg={8} xl={ 8}>
+            >
 
             <LightSpeed left>
                 <Grid item container flexDirection="column"

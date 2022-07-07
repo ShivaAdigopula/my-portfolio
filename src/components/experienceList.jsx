@@ -12,7 +12,7 @@ export function ExperienceList({experience}){
             <Grid item className="banner">Experience</Grid>
         
             
-            {experience && experience.map(exp => <ExperienceComponent experience={exp} />)}
+            {experience && experience.map(exp => <ExperienceComponent key={ exp.company} experience={exp} />)}
             
            
         </Grid>

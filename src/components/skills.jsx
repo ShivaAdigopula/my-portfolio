@@ -32,7 +32,7 @@ export function SkillsComponent({ skills }) {
                 justifyContent="center"
             >
                 {
-                    skills && skills.map(skill => <Fragment>
+                    skills && skills.map(skill => <Fragment key={skill.name}>
                         <Grid item >
                             {skill.name}
                         </Grid>
