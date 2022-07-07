@@ -32,7 +32,7 @@ export function AboutComponent({ picture, about, resume }) {
                 </Grid>
 
                 <Grid item  >
-                    <a href={resume} target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}><Button variant="contained" startIcon={<AiOutlineDownload />}>
+                    <a href={resume} target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}><Button className="download-resume" variant="contained" startIcon={<AiOutlineDownload />}>
                         Resume
                     </Button></a>
                 </Grid>

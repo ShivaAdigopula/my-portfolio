@@ -184,7 +184,11 @@ html, body {
     font-weight: bold;
     font-size:20px;
 }
-
+.download-resume {
+    background-color: blueviolet !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
 
 
 @keyframes App-logo-spin {
