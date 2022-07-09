@@ -54,14 +54,14 @@ html, body {
 }
 
 .about {
-  background-color: #0c0e13;
+  background-color: #0c0c0c;
   height: 100vh;
   font-size: calc(6px + 2vmin);
   color: white;
 }
 
 .skills {
-  background-color: #13111c;
+  background-color: #0a0a0a;
   height: 100vh;
   font-size: calc(4px + 2vmin);
   color: white;
@@ -122,7 +122,7 @@ html, body {
   font-weight: 300;
 }
 .experience {
-  background-color: #000;
+  background-color: #0f0f0f;
   min-height: 100vh;
   font-size: calc(4px + 2vmin);
   color:#fafafa;
