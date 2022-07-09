@@ -41,7 +41,7 @@ html, body {
 .intro{
   background-color: #060e1d;
   min-height: 100vh;
-  font-size: calc(10px + 3vmin);
+  font-size: calc(10px + 2.5vmax);
   color: white;
 }
 
@@ -98,17 +98,17 @@ html, body {
   text-align: center;
   /* background-color: #00afeb3b; */
   /* padding: 2vmin 0 2vmin 0; */
-  font-size: 6vmin;
+  font-size: calc(10px + 5vmin);
   text-decoration: unset;
   border-bottom: 2px solid #ff930d;
 
 }
 .company {
-  font-size: 4vmin;
+  font-size: calc(10px + 3vmin);
   font-weight: 400;
 }
 .location {
-  margin-left: 10px;
+  margin-left: calc(10px + 1vmin);
   font-style: italic;
 }
 .role {
@@ -124,7 +124,7 @@ html, body {
 .experience {
   background-color: #0f0f0f;
   min-height: 100vh;
-  font-size: calc(4px + 2vmin);
+  font-size: calc(6px + 2vmin);
   color:#fafafa;
   
 }

@@ -7,7 +7,7 @@ import { data } from './assets/data';
 import { ExperienceList } from './components/experienceList';
 import { Fade, Zoom } from 'react-reveal';
 import { SkillsComponent } from './components/skills';
-import { Grid, Link, SpeedDial, SpeedDialAction } from '@mui/material';
+import { Link, SpeedDial, SpeedDialAction } from '@mui/material';
 import { GiHamburgerMenu, GiSkills } from 'react-icons/gi';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { MdWork , MdClose} from 'react-icons/md';
@@ -16,9 +16,9 @@ function App() {
   const { name, designation, about, experience, socialNetworks, skills, resume } = data;
 
   const actions = [
-    { icon: <Link  href="#about">< BsFillPersonFill size={25} /></Link>, name: 'About' },
-    { icon: <Link  href="#experience"><MdWork size={25} /></Link>, name: 'Experience' },
-    { icon: <Link  href="#skills"><GiSkills size={25}/></Link>, name: 'Skills' },
+    { icon: <Link  style={{paddingTop:5}} href="#about">< BsFillPersonFill size={25} /></Link>, name: 'About' },
+    { icon: <Link style={{paddingTop:5}} href="#experience"><MdWork size={25} /></Link>, name: 'Experience' },
+    { icon: <Link style={{paddingTop:5}} href="#skills"><GiSkills size={25}/></Link>, name: 'Skills' },
   ];
   return (<Fragment>
     <SpeedDial
@@ -30,6 +30,7 @@ function App() {
       >
         {actions.map((action) => (
           <SpeedDialAction
+            style={{paddingTop:3}}
             key={action.name}
             icon={action.icon}
             tooltipTitle={action.name}
