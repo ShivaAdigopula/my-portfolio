@@ -122,9 +122,10 @@ html, body {
   font-weight: 300;
 }
 .experience {
-  background-color: #eeeeee;
+  background-color: #000;
   min-height: 100vh;
   font-size: calc(4px + 2vmin);
+  color:#fafafa;
   
 }
 .maringleftRight20 {
