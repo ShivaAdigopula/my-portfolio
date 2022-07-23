@@ -1,22 +1,22 @@
-import { Grid } from "@mui/material";
-import { Fragment } from "react";
-import ExperienceComponent from "./experience";
+import { Fragment } from 'react'
+import ExperienceComponent from './experience'
 
-export function ExperienceList({experience}){
-    return <Fragment>
-        <Grid container id="experience" className="experience"
-        flexDirection="column" 
-        justifyContent="center"
-        alignItems="center"
-        alignContent="center">
-            <Grid item className="banner">Experience</Grid>
-        
-            
-            {experience && experience.map(exp => <ExperienceComponent key={ exp.company} experience={exp} />)}
-            
-           
-        </Grid>
+export function ExperienceList ({ experience }) {
+  return (
+    <Fragment>
+      <div
+        id="experience"
+        className="experience flex flex-col items-center justify-center"
+      >
+        <div item className="banner">
+          Experience
+        </div>
 
-        
+        {experience &&
+          experience.map((exp) => (
+            <ExperienceComponent key={exp.company} experience={exp} />
+          ))}
+      </div>
     </Fragment>
+  )
 }

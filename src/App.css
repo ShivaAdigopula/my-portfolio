@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Abel);
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
 }
@@ -38,7 +39,7 @@ html, body {
   justify-content: center;
 }
 
-.intro{
+.intro {
   background-color: #060e1d;
   min-height: 100vh;
   font-size: calc(10px + 2.5vmax);
@@ -67,12 +68,10 @@ html, body {
   color: white;
 }
 
-
-
 .intro-name-highlighter {
   color: #4dd335;
   font-weight: 600;
-  margin-left:10px;
+  margin-left: 10px;
 }
 
 .flex-item {
@@ -101,7 +100,6 @@ html, body {
   font-size: calc(10px + 5vmin);
   text-decoration: unset;
   border-bottom: 2px solid #ff930d;
-
 }
 .company {
   font-size: calc(10px + 3vmin);
@@ -118,37 +116,36 @@ html, body {
 }
 .duration {
   font-size: 2vmin;
-  
+
   font-weight: 300;
 }
 .experience {
   background-color: #0f0f0f;
   min-height: 100vh;
   font-size: calc(6px + 2vmin);
-  color:#fafafa;
-  
+  color: #fafafa;
 }
 .maringleftRight20 {
   margin: 0px 20vmin 0px 20vmin;
 }
 
 .icon-links {
-  margin:2vmin;
+  margin: 2vmin;
 }
 .icon-links span {
   padding: 1vmin;
   cursor: pointer;
 }
 
-.icon-links span a{
-  color:#fff;
+.icon-links span a {
+  color: #fff;
 }
-.marginSkills{
+.marginSkills {
   margin: 2vmax !important;
 }
 
 .menu:hover {
-  color:#61dafb;
+  color: #61dafb;
   border-bottom: 3px solid green;
 }
 
@@ -158,39 +155,37 @@ html, body {
   text-align: left;
   padding: 10px;
   font-weight: 450;
-  color:darkslateblue;
+  color: darkslateblue;
   cursor: pointer;
   min-width: 70px;
 }
 .nav-bar {
-    color: #b205ff;
-    position: fixed;
-    z-index: 100;
-    height: 100vh;
-    max-width:50px;
-    --background-color: black;
+  color: #b205ff;
+  position: fixed;
+  z-index: 100;
+  height: 100vh;
+  max-width: 50px;
+  --background-color: black;
 }
 
 .nav-bar-item {
   cursor: pointer;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    
-    
-    transform: rotate(180deg);
-   
-    margin: calc(10px + 2vmin) !important;
-    padding: 15px;
-    --text-transform: uppercase;
-    font-weight: bold;
-    font-size:20px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+  transform: rotate(180deg);
+
+  margin: calc(10px + 2vmin) !important;
+  padding: 15px;
+  --text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
 }
 .download-resume {
-    background-color: blueviolet !important;
-    color: white !important;
-    font-weight: 600 !important;
+  background-color: blueviolet !important;
+  color: white !important;
+  font-weight: 600 !important;
 }
-
 
 @keyframes App-logo-spin {
   from {
@@ -201,30 +196,35 @@ html, body {
   }
 }
 
-
 /* Typewriter*/
 
-
-.typewriter div{
+.typewriter div {
   --color: #fff;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  --letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+  --letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }

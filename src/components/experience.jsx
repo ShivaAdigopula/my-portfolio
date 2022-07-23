@@ -1,51 +1,29 @@
-import { Grid } from "@mui/material";
-import { withStyles } from "@mui/styles";
-import { Fragment } from "react";
-import { LightSpeed } from "react-reveal";
+import { Fragment } from 'react'
+import { LightSpeed } from 'react-reveal'
 
-const styles = {
-    responsibility: {
-        margin: '1vmin 15vmin !important'
-    },
-    experience: {
-        marginTop: '4vmin',
-
-    },
-    role: {
-        fontSize: '2vmin'
-    },
-    experienceHead: {
-        height: '5vmin',
-        borderBottom: '1px solid #814949'
-    }
-};
-
-function ExperienceComponent({ experience = {}, classes }) {
-    const { company, location, role, from, to } = experience;
-    return <Fragment>
-        <Grid container
-            flexDirection="row"
-            justifyContent="center"
-            alignItems="center"
-            alignContent="center"
-            className={classes.experience}
-            >
-
-            <LightSpeed left>
-                <Grid item container flexDirection="column"
-                    justifyContent="center"
-                    alignItems="center"
-                    alignContent="center"
-
-                >
-                    <Grid item ><span className="company">{company}</span><span className="location">{location}</span></Grid>
-                    <Grid item > <span className="role">{role}</span><span>,</span>  <span className="duration">{from}</span> <span>-</span> <span className="duration">{to}</span></Grid>
-                </Grid>
-            </LightSpeed>
-          
-        </Grid>
-
+function ExperienceComponent ({ experience = {} }) {
+  const { company, location, role, from, to } = experience
+  return (
+    <Fragment>
+      <div className="flex items-center justify-center content-center my-5">
+        <LightSpeed left>
+          <div className="flex flex-col items-center justify-center content-center">
+            <div item>
+              <span className="text-3xl mx-5">{company}</span>
+              <span className="text-xl">{location}</span>
+            </div>
+            <div item>
+              {' '}
+              <span className="text-base italic">{role}</span>
+              <span>,</span> <span className="text-sm">{from}</span>{' '}
+              <span className="align-text-top">-</span>{' '}
+              <span className="text-sm">{to}</span>
+            </div>
+          </div>
+        </LightSpeed>
+      </div>
     </Fragment>
+  )
 }
 
-export default withStyles(styles)(ExperienceComponent);
+export default ExperienceComponent
