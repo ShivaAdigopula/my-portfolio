@@ -9,7 +9,7 @@ function ExperienceComponent ({ experience = {} }) {
         <LightSpeed left>
           <div className="flex flex-col items-center justify-center content-center">
             <div item>
-              <span className="text-3xl mx-5">{company}</span>
+              <span className="text-2xl md:text-3xl mx-5">{company}</span>
               <span className="text-xl">{location}</span>
             </div>
             <div item>
