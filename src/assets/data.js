@@ -67,5 +67,5 @@ export const data = {
     { name: 'Mongo DB', efficiency: 50 },
     { name: 'Strapi', efficiency: 70 }
   ],
-  resume: 'https://drive.google.com/file/d/1-iu0GWvTkH8ppd45SZttqfR_bIPAz1it/view?usp=sharing'
+  resume: 'https://docs.google.com/document/d/1MA8r6qSyXqz9qMepRsWIi_OSs-IFyzWR/edit?usp=sharing&ouid=103361014067387354628&rtpof=true&sd=true'
 }
