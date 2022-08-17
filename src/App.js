@@ -10,7 +10,7 @@ import { SkillsComponent } from './components/skills'
 import { Link, SpeedDial, SpeedDialAction } from '@mui/material'
 import { GiHamburgerMenu, GiSkills } from 'react-icons/gi'
 import { BsFillPersonFill } from 'react-icons/bs'
-import { MdWork, MdClose } from 'react-icons/md'
+import { MdWork, MdClose, MdOutlineCopyright } from 'react-icons/md'
 
 function App () {
   const {
@@ -83,8 +83,9 @@ function App () {
         <ExperienceList experience={experience} />
         <SkillsComponent skills={skills} />
       </Zoom>
+      <div className='flex flex-row items-center justify-center text-white bg-black'><div className=''><MdOutlineCopyright size={24}/></div> <div>{`${new Date().getFullYear()} Shiva Adigopula.`}</div></div>
     </Fragment>
   )
 }
 
-export default App
+export default App;
