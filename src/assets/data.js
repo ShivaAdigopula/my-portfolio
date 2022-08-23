@@ -61,11 +61,13 @@ export const data = {
     { name: 'Java Script', efficiency: 90 },
     { name: 'Spring Framework & Spring Boot', efficiency: 80 },
     { name: 'React JS, Next', efficiency: 80 },
+    { name: 'REST, Graph QL', efficiency: 80 },
     { name: 'HTML & CSS', efficiency: 70 },
     { name: 'Node, Nest', efficiency: 60 },
-    { name: 'Oracle (SQL, PLSQL)', efficiency: 60 },
+    { name: 'Oracle (SQL, PLSQL) / Postgres', efficiency: 60 },
     { name: 'Mongo DB', efficiency: 50 },
-    { name: 'Strapi', efficiency: 70 }
+    { name: 'Strapi', efficiency: 70 },
+    { name: 'Microservices', efficiency: 70 },
   ],
-  resume: 'https://drive.google.com/file/d/18Bgg7nr1HVZ2Gt4IAdU9d2CMJczhPjtd/view?usp=sharing'
+  resume: 'https://drive.google.com/file/d/1p-Ee4wvfdSa_5MKC0A2t-5Ln7-5Jud2x/view?usp=sharing'
 }
