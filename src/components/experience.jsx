@@ -5,11 +5,11 @@ function ExperienceComponent ({ experience = {} }) {
   const { company, location, role, from, to } = experience
   return (
     <Fragment>
-      <div className="flex items-center justify-center content-center my-5">
+      <div className="flex items-center content-center justify-center my-5">
         <LightSpeed left>
-          <div className="flex flex-col items-center justify-center content-center">
+          <div className="flex flex-col items-center content-center justify-center">
             <div item>
-              <span className="text-2xl md:text-3xl mx-5">{company}</span>
+              <span className="mx-5 text-2xl md:text-3xl">{company}</span>
               <span className="text-xl">{location}</span>
             </div>
             <div item>

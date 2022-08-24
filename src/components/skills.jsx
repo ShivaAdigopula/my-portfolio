@@ -1,49 +1,22 @@
-import { Grid } from '@mui/material'
-import { Fragment } from 'react'
+import { Fragment } from "react";
 
-export function SkillsComponent ({ skills }) {
+export function SkillsComponent({ skills }) {
   return (
     <Fragment>
-      <Grid
-        container
-        flexDirection="column"
-        justifyContent="center"
-        alignItems="center"
-        alignContent="center"
-        className="skills"
-        id="skills"
-      >
-        <Grid item className="banner marginBottom">
-          Skills
-        </Grid>
-        <Grid
-          item
-          container
-          rowSpacing={2}
-          xs={10}
-          sm={6}
-          lg={6}
-          flexDirection="column"
-          justifyContent="center"
-        >
+      <div id="skills" className="flex flex-col items-center justify-center w-screen skills">
+        <div className="banner" >Skills</div>
+        <div className="flex flex-wrap items-center justify-center mx-5 my-5">
           {skills &&
             skills.map((skill) => (
-              <div key={skill.name} className="mb-5">
-                <div className="flex justify-between mb-1">
-                  <span className="text-base font-medium text-white-700 dark:text-white">
-                    {skill.name}
-                  </span>
-                </div>
-                <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-500 h-2.5 rounded-full"
-                    style={{ width: `${skill.efficiency}%` }}
-                  ></div>
-                </div>
+              <div
+                key={skill.name}
+                className="px-3 py-2 mx-2 my-2 bg-fuchsia-800 rounded-xl w-fit"
+              >
+                {skill.name}
               </div>
             ))}
-        </Grid>
-      </Grid>
+        </div>
+      </div>
     </Fragment>
-  )
+  );
 }

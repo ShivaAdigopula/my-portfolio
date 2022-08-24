@@ -6,9 +6,9 @@ export function ExperienceList ({ experience }) {
     <Fragment>
       <div
         id="experience"
-        className="experience flex flex-col items-center justify-center"
+        className="flex flex-col items-center justify-center experience"
       >
-        <div item className="banner">
+        <div className="banner">
           Experience
         </div>
 
