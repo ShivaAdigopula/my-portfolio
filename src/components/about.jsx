@@ -12,7 +12,7 @@ export function AboutComponent({ picture, about, resume }) {
 
         <div className="flex flex-col items-center justify-center w-4/5 gap-5 lg:gap-10 xl:gap-10 lg:w-2/3 xl:w-2/3 md:flex-row lg:flex-row xl:flex-row">
           <img
-            className="block h-48 rounded-full md:h-52 lg:h-52 xl:h-52"
+            className="block rounded-full h-36 md:h-44 lg:h-44 xl:h-44"
             src={picture}
             alt={"profile"}
           />

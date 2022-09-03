@@ -1,3 +1,8 @@
+import aNext from "./anext.png";
+import emirates from "./emirates.png";
+import by from "./by.png";
+import cdk from "./cdk.png";
+import tm from "./tm.png";
 export const data = {
   name: "Shiva Adigopula",
   designation: "Full Stack Developer",
@@ -19,6 +24,7 @@ export const data = {
       role: "Full Stack Developer",
       from: "Jun 2022",
       to: "Present",
+      logo: aNext,
     },
     {
       company: "Emirates Group",
@@ -26,8 +32,8 @@ export const data = {
       role: "Senior Software Engineer",
       from: "Sept 2021",
       to: "Jun 2022",
-      responsibilities: `I'm responsible for implementing end to end solutions for CAT360 application.
-          `,
+      responsibilities: `I'm responsible for implementing end to end solutions for CAT360 application.`,
+      logo: emirates,
     },
     {
       company: "Blue Yonder",
@@ -38,6 +44,7 @@ export const data = {
       responsibilities: `Responsible for migrating  'Merchandise Management for Furnishings (MMHF)' from Oracle Forms to new generation SaaS Ready solution using Microservices Architecture and React JS as a front-end application.
         Involved in every phase of the application developement life cycle.
         `,
+      logo: by,
     },
     {
       company: "CDK Global",
@@ -47,6 +54,7 @@ export const data = {
       to: "May 2019",
       responsibilities:
         "Responsible for developing and maintaining Social 2.0 application which offers dealers a unified social media, reputation management and blogging platform. ",
+      logo: cdk,
     },
     {
       company: "Tech Mahindra",
@@ -56,6 +64,7 @@ export const data = {
       to: "Jul 2017",
       responsibilities:
         "Responsible for developing and maintaing AT&T's user Registration, Profile Management and Forgot Login solutions.",
+      logo: tm,
     },
   ],
   skills: [
