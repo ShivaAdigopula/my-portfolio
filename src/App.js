@@ -1,6 +1,6 @@
 import './App.css'
 import { Fragment } from 'react'
-import profilepicture from './assets/dp.jpg'
+import profilepicture from './assets/dp.png'
 import IntroComponent from './components/Intro'
 import { AboutComponent } from './components/about'
 import { data } from './assets/data'
