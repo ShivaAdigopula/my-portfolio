@@ -12,10 +12,10 @@ export const data = {
     mail: "vskrao.adigopula@gmail.com",
   },
   about: [
-    `I am a full stack developer and tech agnostic polyglot programmer.
+    `I am a full stack developer based in Dubai, United Arab Emirates.
         I'm eager to learn about and put into practice solutions for large-scale data-intensive applications.
         I've spent more than 8 years developing enterprise web apps using Java and JavaScript technologies.
-        Node, Next, Nest are the current focus areas.`,
+        System Architecture, Problem Solving, Product Management are my current Focus Areas.`,
   ],
   experience: [
     {
