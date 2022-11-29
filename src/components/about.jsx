@@ -6,7 +6,7 @@ export function AboutComponent({ picture, about, resume }) {
   return (
     <Fragment>
       <div
-        className="flex flex-col items-center content-center justify-center w-screen h-screen mx-auto space-y-4 text-white"
+        className="flex flex-col items-center content-center justify-center w-screen h-screen mx-auto space-y-4 text-white about"
         id="about"
       >
         <div>
