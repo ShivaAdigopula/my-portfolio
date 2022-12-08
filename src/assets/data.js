@@ -13,9 +13,9 @@ export const data = {
   },
   about: [
     `   I am a full stack developer in Dubai, United Arab Emirates.
-        I excite to learn about and put into practice solutions for large-scale data-intensive applications.
+        I excite to learn about and implement solutions for large-scale data-intensive applications.
         I've spent more than 8 years developing wep applications using Java and JavaScript technologies.
-        System Architecture, Problem Solving, Product Management are my current Focus Areas.`,
+        System Architecture, Problem Solving, Product Management are my current focus Areas.`,
   ],
   experience: [
     {
