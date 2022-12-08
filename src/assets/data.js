@@ -12,9 +12,9 @@ export const data = {
     mail: "vskrao.adigopula@gmail.com",
   },
   about: [
-    `I am a full stack developer based in Dubai, United Arab Emirates.
-        I'm eager to learn about and put into practice solutions for large-scale data-intensive applications.
-        I've spent more than 8 years developing enterprise web apps using Java and JavaScript technologies.
+    `   I am a full stack developer in Dubai, United Arab Emirates.
+        I excite to learn about and put into practice solutions for large-scale data-intensive applications.
+        I've spent more than 8 years developing wep applications using Java and JavaScript technologies.
         System Architecture, Problem Solving, Product Management are my current Focus Areas.`,
   ],
   experience: [
@@ -98,5 +98,5 @@ export const data = {
     { name: "Rabbit MQ", efficiency: 70 },
   ],
   resume:
-    "https://drive.google.com/file/d/1p-Ee4wvfdSa_5MKC0A2t-5Ln7-5Jud2x/view?usp=sharing",
+    "https://drive.google.com/file/d/1WxROegqz69HhgldaKJK6kvdeHKmJ3yx_/view?usp=share_link",
 };
