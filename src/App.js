@@ -1,18 +1,18 @@
-import './App.css'
-import { Fragment } from 'react'
-import profilepicture from './assets/dp.png'
-import IntroComponent from './components/Intro'
-import { AboutComponent } from './components/about'
-import { data } from './assets/data'
-import { ExperienceList } from './components/experienceList'
-import { Fade, Zoom } from 'react-reveal'
-import { SkillsComponent } from './components/skills'
-import { Link, SpeedDial, SpeedDialAction } from '@mui/material'
-import { GiHamburgerMenu, GiSkills } from 'react-icons/gi'
-import { BsFillPersonFill } from 'react-icons/bs'
-import { MdWork, MdClose, MdOutlineCopyright } from 'react-icons/md'
+import "./App.css";
+import { Fragment } from "react";
+import profilepicture from "./assets/dp.png";
+import IntroComponent from "./components/Intro";
+import { AboutComponent } from "./components/about";
+import { data } from "./assets/data";
+import { ExperienceList } from "./components/experienceList";
+import { Fade, Zoom } from "react-reveal";
+import { SkillsComponent } from "./components/skills";
+import { Link, SpeedDial, SpeedDialAction } from "@mui/material";
+import { GiHamburgerMenu, GiSkills } from "react-icons/gi";
+import { BsFillPersonFill } from "react-icons/bs";
+import { MdWork, MdClose, MdOutlineCopyright } from "react-icons/md";
 
-function App () {
+function App() {
   const {
     name,
     designation,
@@ -20,8 +20,8 @@ function App () {
     experience,
     socialNetworks,
     skills,
-    resume
-  } = data
+    resume,
+  } = data;
 
   const actions = [
     {
@@ -30,7 +30,7 @@ function App () {
           <BsFillPersonFill size={25} />
         </Link>
       ),
-      name: 'About'
+      name: "About",
     },
     {
       icon: (
@@ -38,7 +38,7 @@ function App () {
           <MdWork size={25} />
         </Link>
       ),
-      name: 'Experience'
+      name: "Experience",
     },
     {
       icon: (
@@ -46,15 +46,15 @@ function App () {
           <GiSkills size={25} />
         </Link>
       ),
-      name: 'Skills'
-    }
-  ]
+      name: "Skills",
+    },
+  ];
   return (
     <Fragment>
       <SpeedDial
-        FabProps={{ color: 'secondary' }}
+        FabProps={{ color: "secondary" }}
         ariaLabel="Menu"
-        sx={{ position: 'fixed', bottom: 16, right: 16 }}
+        sx={{ position: "fixed", bottom: 16, right: 16 }}
         icon={<GiHamburgerMenu size="25" />}
         openIcon={<MdClose size={25} />}
       >
@@ -82,13 +82,15 @@ function App () {
         />
         <ExperienceList experience={experience} />
         <SkillsComponent skills={skills} />
-
-        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="shivaadigopula" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ae.linkedin.com/in/shivaadigopula?trk=profile-badge">Shiva Adigopula</a></div>
-                       
       </Zoom>
-      <div className='flex flex-row items-center justify-center text-white bg-black'><div className=''><MdOutlineCopyright size={24}/></div> <div>{`${new Date().getFullYear()} Shiva Adigopula.`}</div></div>
+      <div className="flex flex-row items-center justify-center text-white bg-black">
+        <div className="">
+          <MdOutlineCopyright size={24} />
+        </div>{" "}
+        <div>{`${new Date().getFullYear()} Shiva Adigopula.`}</div>
+      </div>
     </Fragment>
-  )
+  );
 }
 
 export default App;
