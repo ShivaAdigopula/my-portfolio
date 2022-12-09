@@ -82,6 +82,9 @@ function App () {
         />
         <ExperienceList experience={experience} />
         <SkillsComponent skills={skills} />
+
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="shivaadigopula" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ae.linkedin.com/in/shivaadigopula?trk=profile-badge">Shiva Adigopula</a></div>
+                       
       </Zoom>
       <div className='flex flex-row items-center justify-center text-white bg-black'><div className=''><MdOutlineCopyright size={24}/></div> <div>{`${new Date().getFullYear()} Shiva Adigopula.`}</div></div>
     </Fragment>
