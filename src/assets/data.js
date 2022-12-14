@@ -96,6 +96,12 @@ export const data = {
     { name: "Azure Cloud", efficiency: 70 },
     { name: "Eh-Cache / Redis Cache", efficiency: 70 },
     { name: "Rabbit MQ", efficiency: 70 },
+    { name: "Kafka", efficiency: 70 },
+    { name: "Stripe Payments", efficiency: 70 },
+    { name: "SOLID Principles", efficiency: 70 },
+    { name: "Test Driven Development (TDD)", efficiency: 70 },
+    { name: "Domain Driven Design(DDD)", efficiency: 70 },
+   
   ],
   resume:
     "https://drive.google.com/file/d/1WxROegqz69HhgldaKJK6kvdeHKmJ3yx_/view?usp=share_link",
