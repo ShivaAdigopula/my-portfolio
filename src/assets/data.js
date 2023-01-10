@@ -12,10 +12,7 @@ export const data = {
     mail: "vskrao.adigopula@gmail.com",
   },
   about: [
-    `   I am a full stack developer in Dubai, United Arab Emirates.
-        I excite to learn about and implement solutions for large-scale data-intensive applications.
-        I've spent more than 8 years developing wep applications using Java and JavaScript technologies.
-        System Architecture, Problem Solving, Product Management are my current focus Areas.`,
+    `I am a full-stack developer based in Dubai, United Arab Emirates. I am driven to learn about and implement innovative solutions for large-scale, data-intensive applications. With over 8 years of experience in web development, I have developed a strong proficiency in Java and JavaScript technologies, making me a well-rounded and versatile developer. My current focus areas include system architecture, problem-solving, and product management. I have a strong passion for technology and a drive to stay current with the latest industry developments. I am constantly seeking new opportunities to challenge myself and push the boundaries of what can be achieved with technology. I am dedicated to delivering high-quality and efficient solutions that meet the unique needs of my clients. I understand the importance of delivering on time and within budget, making sure that my client's objectives are met and exceeded.`
   ],
   experience: [
     {
