@@ -26,7 +26,7 @@ export const data = {
     {
       company: "Albatha Next",
       location: "Dubai, UAE",
-      role: "Full Stack Developer",
+      role: "Lead Full Stack Developer",
       from: "Jun 2022",
       to: "Feb 2023",
       logo: aNext,
