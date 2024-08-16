@@ -12,7 +12,7 @@ export function ExperienceList ({ experience }) {
           Experience
         </div>
 
-        <div className='flex flex-col flex-wrap justify-center align-middle my-10 md:flex-row lg:flex-row xl:flex-row lg:gap-5 xl:gap-5'>
+        <div className='mx-10 flex flex-col flex-wrap justify-items-center  my-10 lg:flex-row xl:flex-row lg:gap-5 xl:gap-5'>
         {experience &&
           experience.map((exp) => (
             <ExperienceComponent key={exp.company} experience={exp} />
