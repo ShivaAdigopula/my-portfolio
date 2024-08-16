@@ -61,41 +61,35 @@ body {
   font-size: calc(4px + 2vmin);
   color: white;
 }
+
 .intro-text {
   text-align: center;
-  background: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
+  background: rgba(0, 0, 0, 0.7);
   padding: 60px;
-  border-radius: 15px; /* Rounded corners */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
-  backdrop-filter: blur(10px); /* Glass effect */
-  z-index: 1; /* Ensure it sits on top of icons */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 1;
 }
 
 body {
   background: linear-gradient(135deg, rgba(0, 0, 0, 1) 0%, rgba(20, 20, 20, 1) 50%, rgba(0, 0, 0, 1) 100%);
   margin: 0;
-
-  perspective: 1000px;
-  /* Perspective for 3D effect */
+  height: 100%;
 }
 
 .intro-name-highlighter {
-  color: #ffffff; /* Pure white text for contrast */
-  font-weight: 700; /* Bold text */
+  color: #ffffff;
+  font-weight: 700;
   margin-left: 10px;
-  background: linear-gradient(135deg, rgba(255, 105, 180, 0.6), rgba(138, 43, 226, 0.6)); /* Gradient background */
-  padding: 8px 16px; /* Increased padding for better visual appeal */
-  border-radius: 12px; /* More rounded corners for a softer look */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Deeper shadow for enhanced depth */
-  backdrop-filter: blur(8px); /* Glassy effect */
-  border: 2px solid rgba(255, 255, 255, 0.3); /* Subtle border for extra emphasis */
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.6), rgba(138, 43, 226, 0.6));
+  padding: 8px 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
 
 .flex-item {
   margin: 2vmin;
@@ -118,8 +112,6 @@ body {
 .banner {
   --height: 6vh;
   text-align: center;
-  /* background-color: #00afeb3b; */
-  /* padding: 2vmin 0 2vmin 0; */
   font-size: calc(10px + 5vmin);
   text-decoration: unset;
   border-bottom: 2px solid #ff930d;
@@ -143,7 +135,6 @@ body {
 
 .duration {
   font-size: 2vmin;
-
   font-weight: 300;
 }
 
@@ -182,7 +173,6 @@ body {
 
 .menu {
   margin-top: 10px;
-  /* background-color: brown; */
   text-align: left;
   padding: 10px;
   font-weight: 450;
@@ -204,9 +194,7 @@ body {
   cursor: pointer;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-
   transform: rotate(180deg);
-
   margin: calc(10px + 2vmin) !important;
   padding: 15px;
   --text-transform: uppercase;
@@ -222,29 +210,35 @@ body {
 
 .social-icons a {
   color: #ffffff;
-  transition: color 0.3s, transform 0.3s; /* Smooth transition */
+  transition: color 0.3s, transform 0.3s;
 }
+
 .social-icons a:hover {
-  color: #e91e63; /* Highlight color on hover */
-  transform: scale(1.1); /* Slight zoom effect */
+  color: #e91e63;
+  transform: scale(1.1);
 }
+
 .social-icons {
   display: flex;
-  gap: 15px; /* Space between icons */
+  gap: 15px;
   margin-top: 20px;
 }
+
 .intro-text h1, .intro-text h2 {
   margin: 0;
 }
+
 @media (max-width: 768px) {
   .intro-text {
     padding: 20px;
   }
+
   .intro-name-highlighter {
-    font-size: 1.5rem; /* Responsive font size */
+    font-size: 1.5rem;
   }
+
   .social-icons {
-    gap: 10px; /* Adjust space between icons */
+    gap: 10px;
   }
 }
 
@@ -252,48 +246,34 @@ body {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
   }
 }
 
-/* Typewriter*/
-
 .typewriter div {
   --color: #fff;
   overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid orange;
-  /* The typwriter cursor */
   white-space: nowrap;
-  /* Keeps the content on a single line */
   margin: 0 auto;
-  /* Gives that scrolling effect as the typing happens */
   --letter-spacing: 0.15em;
-  /* Adjust as needed */
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
-/* The typing effect */
 @keyframes typing {
   from {
     width: 0;
   }
-
   to {
     width: 100%;
   }
 }
 
-/* The typewriter cursor effect */
 @keyframes blink-caret {
-
-  from,
-  to {
+  from, to {
     border-color: transparent;
   }
-
   50% {
     border-color: orange;
   }
