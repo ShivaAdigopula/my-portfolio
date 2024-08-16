@@ -14,7 +14,7 @@ function ExperienceComponent({ experience = {} }) {
             <div>
               <div className="flex flex-col items-center justify-center p-2">
                 <div>
-                  <div className="mx-5 text-lg font-bold md:text-3xl lg:text-3xl xl:text-3xl">
+                  <div className="mx-5 text-lg font-bold sm:text-3xl lg:text-3xl xl:text-3xl">
                     {role}
                   </div>
                   <div>
