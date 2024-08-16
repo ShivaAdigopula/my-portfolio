@@ -12,15 +12,23 @@ export const data = {
     mail: "vskrao.adigopula@gmail.com",
   },
   about: [
-    `I am a full-stack developer based in Dubai, United Arab Emirates. I am driven to learn about and implement innovative solutions for large-scale, data-intensive applications. With over 9 years of experience in web development, I have developed a strong proficiency in Java and JavaScript technologies, making me a well-rounded and versatile developer. My current focus areas include system architecture, problem-solving, and product management. I am constantly seeking new opportunities to challenge myself and push the boundaries of what can be achieved with technology. I am dedicated to delivering high-quality and efficient solutions that meet the unique needs of my clients. I understand the importance of delivering on time and within budget, making sure that my client's objectives are met and exceeded.`
+    `As a dynamic full-stack developer based in Dubai, I bring over 9 years of experience in crafting innovative, data-driven solutions. My expertise spans Java and JavaScript technologies, allowing me to excel in system architecture and complex problem-solving. I am passionate about pushing technological boundaries and thrive on tackling new challenges. Currently, I focus on System Architecture and Product Management. Committed to delivering high-quality, efficient solutions, I ensure projects are completed on time and within budget, consistently surpassing client expectations. If you’re seeking a versatile developer who can drive success through cutting-edge technology, I am eager to contribute.`
   ],
   experience: [
+    {
+      company: "Emirates Group",
+      location: "Dubai, UAE",
+      role: "Senior Software Engineer",
+      from: "Feb 2023",
+      to: "Present",
+      logo: emirates,
+    },
     {
       company: "Albatha Next",
       location: "Dubai, UAE",
       role: "Full Stack Developer",
       from: "Jun 2022",
-      to: "Present",
+      to: "Feb 2023",
       logo: aNext,
     },
     {
@@ -69,6 +77,8 @@ export const data = {
     { name: "Java Script", efficiency: 90 },
     { name: "ES6 / ES7", efficiency: 90 },
     { name: "Typescript", efficiency: 90 },
+    { name: "Python", efficiency: 90 },
+    { name: "Solidity", efficiency: 90 },
     { name: "Spring Framework", efficiency: 80 },
     { name: "Spring Boot", efficiency: 80 },
     { name: "Spring WebFlux", efficiency: 80 },
@@ -98,7 +108,9 @@ export const data = {
     { name: "SOLID Principles", efficiency: 70 },
     { name: "Test Driven Development (TDD)", efficiency: 70 },
     { name: "Domain Driven Design(DDD)", efficiency: 70 },
-   
+    { name: "Blockchain Development", efficiency: 70 },
+    
+
   ],
   resume:
     "https://drive.google.com/file/d/1WxROegqz69HhgldaKJK6kvdeHKmJ3yx_/view?usp=share_link",

@@ -1,0 +1,102 @@
+.java-icon {
+    position: relative;
+    width: 20vw; /* Responsive width */
+    max-width: 150px; /* Max width to prevent it from getting too large */
+    height: auto; /* Height adjusts automatically */
+  }
+  
+  .java-icon .cup {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: #6f4f28;
+    border-radius: 0 0 50% 50%;
+    border: 5px solid #4e3b2d;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .java-icon .cup:before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: 15%;
+    width: 70%;
+    height: 30%;
+    background: #6f4f28;
+    border-radius: 50%;
+    border: 5px solid #4e3b2d;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .java-icon .steam {
+    position: absolute;
+    top: -30%;
+    left: 25%;
+    width: 0;
+    height: 0;
+    border: 10% solid transparent;
+    border-bottom-color: #ddd;
+    border-radius: 50%;
+    animation: steam 1.5s infinite ease-in-out;
+  }
+  
+  .java-icon .steam:nth-child(2) {
+    left: 45%;
+    animation-delay: 0.5s;
+  }
+  
+  .java-icon .steam:nth-child(3) {
+    left: 65%;
+    animation-delay: 1s;
+  }
+  
+  @keyframes steam {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .java-icon .cup {
+      height: 55%;
+    }
+  
+    .java-icon .cup:before {
+      top: -15%;
+      width: 65%;
+    }
+  
+    .java-icon .steam {
+      border-width: 8%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .java-icon {
+      width: 30vw; /* Adjusted width for smaller screens */
+    }
+  
+    .java-icon .cup {
+      height: 60%;
+    }
+  
+    .java-icon .cup:before {
+      top: -10%;
+      width: 60%;
+    }
+  
+    .java-icon .steam {
+      border-width: 6%;
+    }
+  }
+  

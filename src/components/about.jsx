@@ -21,7 +21,7 @@ export function AboutComponent({ picture, about, resume }) {
           />
 
           <div className="flex flex-col items-center justify-center ">
-            <div className="w-5/6 text-base md:w-full lg:w-full xl:w-full xs:text-xs">{about}</div>
+            <div className="w-5/6 text-base text-justify md:w-full lg:w-full xl:w-full md:text-lg lg:text-xl xs:text-xs">{about}</div>
           </div>
         </div>
         <div className="my-5">
