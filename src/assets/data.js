@@ -12,7 +12,7 @@ export const data = {
     mail: "vskrao.adigopula@gmail.com",
   },
   about: [
-    `As a dynamic full-stack developer based in Dubai, I bring over 9 years of experience in crafting innovative, data-driven solutions. My expertise spans Java and JavaScript technologies, allowing me to excel in system architecture and complex problem-solving. I am passionate about pushing technological boundaries and thrive on tackling new challenges. Currently, I focus on System Architecture and Product Management. Committed to delivering high-quality, efficient solutions, I ensure projects are completed on time and within budget, consistently surpassing client expectations. If you’re seeking a versatile developer who can drive success through cutting-edge technology, I am eager to contribute.`
+    `As a dynamic full-stack developer based in Dubai, I bring over ${new Date().getFullYear() - 2014} years of experience in crafting innovative, data-driven solutions. My expertise spans Java and JavaScript technologies, allowing me to excel in system architecture and complex problem-solving. I am passionate about pushing technological boundaries and thrive on tackling new challenges. Currently, I focus on System Architecture and Product Management. Committed to delivering high-quality, efficient solutions, I ensure projects are completed on time and within budget, consistently surpassing client expectations. If you’re seeking a versatile developer who can drive success through cutting-edge technology, I am eager to contribute.`
   ],
   experience: [
     {
@@ -109,7 +109,7 @@ export const data = {
     { name: "Test Driven Development (TDD)", efficiency: 70 },
     { name: "Domain Driven Design(DDD)", efficiency: 70 },
     { name: "Blockchain Development", efficiency: 70 },
-    
+
 
   ],
   resume:
